@@ -114,16 +114,19 @@ h3{
 a{
     text-decoration: none;
 }
-@media screen and (min-width:480px) {
+@media screen and (max-width:480px) {
     .tech{
         flex-direction: column;
     }
     p{
       font-size: x-large;
-
+      padding-left: 1.5em;
+      padding-right: 1.5;
+      padding-top: 1em;
+        
     }
     .bodycontent{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .coding img{
         width: 300px;
