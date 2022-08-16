@@ -114,7 +114,7 @@ h3{
 a{
     text-decoration: none;
 }
-@media screen and (width:480px) {
+@media screen and (max-width:600px) {
     .tech{
         flex-direction: column;
     }
